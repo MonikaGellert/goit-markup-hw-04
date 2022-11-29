@@ -473,6 +473,11 @@ figure {
   background-color: var(--main-font-color);
   fill: #afb1b8;
   gap: 30px;
+
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .client_box:hover,
@@ -533,6 +538,10 @@ figure {
 
 .social_media-icon:focus,
 .social_media-icon:hover {
-  color: white;
+  fill: var(--main-font-color);
   background-color: var(--main-underline-color);
+}
+.footer_flex {
+  display: flex;
+  gap: 10px;
 }
