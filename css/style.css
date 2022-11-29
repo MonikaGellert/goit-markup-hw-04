@@ -67,7 +67,7 @@ ul {
   width: 114px;
   height: 38px;
   border-radius: 4px;
-  background: #f5f4fa;
+  background: var(--icone_background);
   cursor: pointer;
   margin-right: 8px;
 }
@@ -77,7 +77,8 @@ ul {
   background-color: var(--main-underline-color);
 }
 .section_3 {
-  background-color: #f5f4fa;
+  background-color: var(--icone_background);
+
   height: 648px;
   margin: 0 auto;
 }
@@ -133,6 +134,7 @@ ul {
   text-transform: uppercase;
   color: var(--main-font-color-color);
   margin-bottom: 20px;
+  display: flex;
 }
 .team-header {
   font-weight: 700;
@@ -282,7 +284,7 @@ header:hover {
 }
 
 .header_2 {
-  background-color: #f5f4fa;
+  background-color: var(--icone_background);
   margin: 0;
   padding-bottom: 50px;
 }
@@ -297,7 +299,7 @@ figure {
   margin-right: 30px;
   align-items: center;
   margin: 0 auto;
-  background-color: #f5f4fa;
+  background-color: var(--icone_background);
 }
 .section {
   padding-top: 94px;
@@ -371,6 +373,15 @@ figure {
 .icons {
   margin: 25px 100px;
 }
+
+.social_media-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 206px;
+  gap: 10px;
+  margin: 0px 32px 18px;
+}
 .social_media-icon {
   display: inline-flex;
   justify-content: center;
@@ -381,12 +392,15 @@ figure {
   border-radius: 50%;
   background-size: contain;
   background-position: center;
-  background-color: #afb1b8;
+  background-color: white;
   fill: #afb1b8;
 }
 .footer_social {
-  display: block;
+  display: flex;
   padding-top: 12px;
+}
+.footer_nav {
+  display: flex;
 }
 .footer_social-icon {
   display: flex;
@@ -415,7 +429,7 @@ figure {
   background-position: center;
   background-repeat: no-repeat;
   background-color: var(--main-underline-color);
-  fill: var(--main-font-color);
+  fill: white;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -481,4 +495,33 @@ figure {
 
 .icon_client_6 {
   margin: 22.77px 38px 25.31px;
+}
+.image_padding:hover,
+.image_padding:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
+.our_team-box {
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-right: 30px;
+
+  width: 270px;
+  background-color: var(--main-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.btn_active:hover,
+.btn_active:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.social_media-icon:focus,
+.social_media-icon:hover {
+  color: var(--main-font-color);
+  background-color: var(--main-underline-color);
 }
