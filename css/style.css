@@ -199,8 +199,13 @@ ul {
 .link_2:hover,
 .link:focus,
 .link_2:focus,
-.nav_link:hover {
+.nav_link:hover,
+.icon_envelope:focus,
+.icon_envelope:hover,
+.icon_smartphone:hover,
+.icon_smartphone:focus {
   color: var(--main-underline-color);
+  fill: var(--main-underline-color);
 }
 
 ul,
@@ -417,7 +422,7 @@ figure {
   fill: white;
 }
 .social_footer-box {
-  display: flex;
+  display: inline-block;
   flex-direction: row;
   height: 44px;
   gap: 10px;
@@ -522,6 +527,6 @@ figure {
 
 .social_media-icon:focus,
 .social_media-icon:hover {
-  color: var(--main-font-color);
+  color: white;
   background-color: var(--main-underline-color);
 }
