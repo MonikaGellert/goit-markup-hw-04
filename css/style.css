@@ -133,7 +133,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-font-color-color);
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   display: flex;
 }
 .team-header {
@@ -156,6 +156,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   background-color: #ffffff;
+  padding-left: 24px;
 }
 
 .head_4a {
@@ -165,7 +166,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   margin-bottom: 0px;
-  padding-bottom: 30px;
+  padding-left: 24px;
 }
 .logo {
   color: var(--main-underline-color);
@@ -225,6 +226,7 @@ a {
   font-size: 14px;
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
 }
 .link_2 {
   color: var(--main-font-color);
@@ -259,9 +261,13 @@ header:hover {
 }
 .flex-container_2 {
   margin: 0 auto;
+  display: flex;
 }
 .footer_logo {
   padding-top: 60px;
+}
+.footer_nav {
+  margin-right: 70px;
 }
 .contact {
   padding-left: 215px;
@@ -319,12 +325,6 @@ figure {
   align-items: center;
 }
 
-.li_border {
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  padding-bottom: 30px;
-}
 .border_1 {
   border-bottom: 1px solid #eeeeee;
 }
@@ -343,8 +343,10 @@ address {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 figcaption,
 figure {
@@ -403,8 +405,12 @@ figure {
 .footer_social {
   display: flex;
   padding-top: 12px;
+  flex-direction: column;
 }
 .footer_nav {
+  display: flex;
+}
+.flex {
   display: flex;
 }
 .footer_social-icon {
@@ -421,7 +427,7 @@ figure {
   background-color: rgba(255, 255, 255, 0.1);
   fill: white;
 }
-.social_footer-box {
+.footer_social-box {
   display: inline-block;
   flex-direction: row;
   height: 44px;
@@ -475,7 +481,7 @@ figure {
   border-color: var(--main-underline-color);
   border-style: solid;
   background-color: var(--main-font-color);
-  fill: #afb1b8;
+  fill: #2196f3;
   cursor: pointer;
 }
 .icon_client_1 {
@@ -501,8 +507,8 @@ figure {
 .icon_client_6 {
   margin: 22.77px 38px 25.31px;
 }
-.image_padding:hover,
-.image_padding:focus {
+.img_border:hover,
+.img_border:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
