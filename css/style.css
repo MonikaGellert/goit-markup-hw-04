@@ -32,7 +32,7 @@ ul {
   display: flex;
   padding-inline-start: 0px;
 }
-.head_1 {
+.hero_h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -82,7 +82,7 @@ ul {
   height: 648px;
   margin: 0 auto;
 }
-.section_items {
+.our_work-picture {
   gap: 30px;
   padding-left: 15px;
   padding-right: 15px;
@@ -136,7 +136,7 @@ ul {
   margin-bottom: 0px;
   display: flex;
 }
-.team-header {
+.our_work-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -145,11 +145,11 @@ ul {
   align-items: center;
   text-align: center;
 }
-.work {
+.our_work {
   padding-top: 0;
   padding-bottom: 94px;
 }
-.head_4 {
+.lorem_h4 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
@@ -157,9 +157,10 @@ ul {
   color: var(--main-text-color);
   background-color: #ffffff;
   padding-left: 24px;
+  margin: 0;
 }
 
-.head_4a {
+.lorem_h4a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -237,17 +238,13 @@ a {
 .nav_link {
   display: flex;
 }
-header:hover {
-  border-bottom: var(--main-underline-color);
-  margin: 0 auto;
-}
 
 .container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
-.header-container {
+.header_items {
   display: flex;
   color: var(--secondary-text-color);
   margin: 0 auto;
@@ -303,10 +300,10 @@ figure {
   margin: 0 auto;
 }
 
-.section_items figure {
+.our_work-picture figure {
   align-items: center;
 }
-.picture_items {
+.our_work-picture {
   margin-right: 30px;
   align-items: center;
   margin: 0 auto;
@@ -325,7 +322,7 @@ figure {
   align-items: center;
 }
 
-.border_1 {
+.header {
   border-bottom: 1px solid #eeeeee;
 }
 
